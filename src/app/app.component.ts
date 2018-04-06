@@ -7,7 +7,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  public post : WordPressPosts = null;
   public title : String = 'Loading title...';
   public content : String = 'Loading content...';
 
